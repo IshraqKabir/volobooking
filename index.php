@@ -327,12 +327,12 @@ function smtp_mailer($to, $subject, $msg)
 </style>
 
 <body data-spy="scroll" data-target=".navbar">
-  <nav id="myModal" class="navbar fixed-top navbar-expand-lg navbar-light bg-light py-3 py-lg-5">
+  <nav id="myModal" class="navbar position-sticky fixed-top navbar-expand-lg navbar-light bg-light py-3 py-lg-5">
     <div class="container">
       <div>
         <a href="#"> <img src="img/logo3.png" alt="" style="width: 170px;">
       </div></a>
-      <a href="#"> <img style="width: 75px;" src="img/flight.png" alt=""> </a>
+      <!-- <a href="#"> <img style="width: 75px;" src="img/flight.png" alt=""> </a> -->
       <!--<img style="width: 75px;" src="img/flight.png" alt="">-->
       <button class="navbar-toggler" style="color:#F8F9FA" type="button" data-toggle="collapse" data-target="#navbarHelloWorld" aria-controls="navbarHelloWorld" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -342,15 +342,15 @@ function smtp_mailer($to, $subject, $msg)
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <a href="#" id="mbn2" style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>Home</b></a>
-          <a href="#" id="mbn2" style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>Get a Quote</b></a>
+          <a href="#br1" id="mbn2" style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>Get a Quote</b></a>
           <a href="#portfolio" id="mbn2" style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>Popular Destinations</b></a>
           <a href="#" id="mbn2" style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>About Us</b></a>
-          <a href="#" id="mbn2" style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>FAQ</b></a>
-          <a href="#" id="mbn2" style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>Contact</b></a>
+          <a href="#faq" id="mbn2" style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>FAQ</b></a>
+          <a href="#contact" id="mbn2" style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>Contact</b></a>
           <button style="font-family: 'Heebo';" type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#signupModal">
             Register
           </button>
-          <button id="mbn8" style="font-family: 'Heebo'; float: right; margin-left:0px; " class="btn btn-primary"><a style="color:white; text-decoration:none;" href="#frequent">About Volo</a></button>
+          <!-- <button id="mbn8" style="font-family: 'Heebo'; float: right; margin-left:0px; " class="btn btn-primary"><a style="color:white; text-decoration:none;" href="#frequent">About Volo</a></button> -->
         </form>
       </div>
     </div>
@@ -501,6 +501,12 @@ function smtp_mailer($to, $subject, $msg)
               <div class="form-group">
                 <span class="form-label">Email</span>
                 <input class="form-control" type="email" name="Email" placeholder="Enter your email" required>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="form-group">
+                <span class="form-label">Phone</span>
+                <input class="form-control" type="text" name="Phone" placeholder="Enter your phone number" required>
               </div>
             </div>
             <div class="col-md-3">
@@ -1024,7 +1030,7 @@ function smtp_mailer($to, $subject, $msg)
   </div>
   <!--/.Carousel Wrapper-->
 
-  <div class="container my-5">
+  <div class="container my-5" id="faq">
 
     <div class="row">
       <h3>
@@ -1125,7 +1131,7 @@ function smtp_mailer($to, $subject, $msg)
   </div>
   </div>
   <!--Section: Contact v.2-->
-  <div class="container my-5">
+  <div class="container my-5" id="contact">
     <section class="mb-4">
       <br>
       <br>
@@ -2005,6 +2011,7 @@ function smtp_mailer($to, $subject, $msg)
         })
         .catch(error => error1())
     })
+
     function sheet2() {
 
       const scriptURL2 = 'https://script.google.com/macros/s/AKfycbzRJyl8UpKcq4fjCEr5wWWwfSsg7zy5WV8Q3cJ-o110dNm0PZXbGOozSDecy0xevQKt/exec'
@@ -2193,4 +2200,5 @@ function smtp_mailer($to, $subject, $msg)
     }
   </script>
 </body>
+
 </html>
