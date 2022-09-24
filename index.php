@@ -326,10 +326,12 @@ border-color: red;
 
 			</ul>
 			<form class="form-inline my-2 my-lg-0">
-			  
         <a href="#"  id="mbn2"  style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>Home</b></a>
-             
-
+        <a href="#"  id="mbn2"  style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>Get a Quote</b></a>
+        <a href="#portfolio"  id="mbn2"  style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>Popular Destinations</b></a>
+        <a href="#"  id="mbn2"  style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>About Us</b></a>
+        <a href="#"  id="mbn2"  style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>FAQ</b></a>
+        <a href="#"  id="mbn2"  style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>Contact</b></a>
         <button style="font-family: 'Heebo';"
         type="button"
         class="btn btn-primary mr-2"
@@ -1134,6 +1136,20 @@ aria-hidden="true"
   
     <div class="accordion accordion-flush border-top border-start border-end my-5" id="myAccordion">
         <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne"> <button class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">ABOUT VOLO</button> </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse border-0" aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                <div class="accordion-body p-0">
+                  <div class="card-body">
+                    <b>WE ARE FLIGHT BOOKING EXPERTS</b>
+                    <br><br>
+                    Volo Booking, in collaboration with many Flights Only companies, is a new niche and unique travel agency specialized specifically and only in international business class and first-class flights, offering high expertise, friendly-efficient customer service and unpublished prices, not available online. We beat any websites such as Kayak, Booking.com, Expedia, Google Flights etc., as well as prices offered on the airline’s websites. Unlike other travel agencies, our service is entirely free. The airlines compensate us with commissions for every flight sold through us. Our customers are from all across the nation and from different industries. We currently work mainly with doctors and professors from hospitals and universities such as Harvard, NYU, UCLA and Boston University, with actors, artists and managers of major talent agencies in Los Angeles and New York, as well as CEO's and their assistants of various industries.
+                    <br><br>
+                    Yes, we do provide references. Our greatest satisfaction and success comes in serving satisfied clients who are looking to experience airfare booking served with competence, professionalism and at a lower rate
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne"> <button class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">HOW DOES VOLO FIND SUCH LOW FLIGHT PRICES?</button> </h2>
             <div id="flush-collapseOne" class="accordion-collapse collapse border-0" aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
                 <div class="accordion-body p-0">
@@ -1146,27 +1162,6 @@ aria-hidden="true"
                    The lowest fare the general public is asked to pay online or via the airline’s websites, are not always necessarily indicative of the “lowest possible airfare”. Airline tickets consolidators for example, purchase a large number of tickets and as such, they receive a heavily discounted bulk rate fare on each ticket. Since they purchase these tickets for less than retail, they are also willing to sell airline tickets at less than retail. Our agents have exclusive access to these special fares, as well as to unsold inventory fares that are not published or offered to the general public.
                    
                    
-
-                  </div>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingOne"> <button class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">ABOUT VOLO AND REFERENCES</button> </h2>
-            <div id="flush-collapseTwo" class="accordion-collapse collapse border-0" aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
-                <div class="accordion-body p-0">
-                  <div class="card-body">
-
-
-                    <b>WE ARE FLIGHT BOOKING EXPERTS</b>
-                    <br><br>
-                    Volo Booking, in collaboration with many Flights Only companies, is a new niche and unique travel agency specialized specifically and only in international business class and first-class flights, offering high expertise, friendly-efficient customer service and unpublished prices, not available online. We beat any websites such as Kayak, Booking.com, Expedia, Google Flights etc., as well as prices offered on the airline’s websites. Unlike other travel agencies, our service is entirely free. The airlines compensate us with commissions for every flight sold through us. Our customers are from all across the nation and from different industries. We currently work mainly with doctors and professors from hospitals and universities such as Harvard, NYU, UCLA and Boston University, with actors, artists and managers of major talent agencies in Los Angeles and New York, as well as CEO's and their assistants of various industries.
-                    <br><br>
-                    Yes, we do provide references. Our greatest satisfaction and success comes in serving satisfied clients who are looking to experience airfare booking served with competence, professionalism and at a lower rate
-                    
-
-
-
 
                   </div>
                 </div>
