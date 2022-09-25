@@ -240,6 +240,10 @@ function smtp_mailer($to, $subject, $msg)
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <style>
+  body{
+    background-color: #ccefff;
+  }
+
   .swal-button--confirm {
     background: #0275d8;
   }
@@ -330,8 +334,10 @@ function smtp_mailer($to, $subject, $msg)
   <nav id="myModal" class="navbar position-sticky fixed-top navbar-expand-lg navbar-light bg-light py-3 py-lg-5">
     <div class="container">
       <div>
-        <a href="#"> <img src="img/logo3.png" alt="" style="width: 170px;">
-      </div></a>
+        <a href="#"> 
+          <img src="img/logo3.png" alt="" style="width: 170px;">
+        </a>
+      </div>
       <!-- <a href="#"> <img style="width: 75px;" src="img/flight.png" alt=""> </a> -->
       <!--<img style="width: 75px;" src="img/flight.png" alt="">-->
       <button class="navbar-toggler" style="color:#F8F9FA" type="button" data-toggle="collapse" data-target="#navbarHelloWorld" aria-controls="navbarHelloWorld" aria-expanded="false" aria-label="Toggle navigation">
@@ -344,8 +350,8 @@ function smtp_mailer($to, $subject, $msg)
           <a href="#" id="mbn2" style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>Home</b></a>
           <a href="#br1" id="mbn2" style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>Get a Quote</b></a>
           <a href="#portfolio" id="mbn2" style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>Popular Destinations</b></a>
-          <a href="#" id="mbn2" style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>About Us</b></a>
-          <a href="#faq" id="mbn2" style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>FAQ</b></a>
+          <a href="#faq" id="mbn2" style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>About Us & FAQ</b></a>
+          <!-- <a href="#faq" id="mbn2" style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>FAQ</b></a> -->
           <a href="#contact" id="mbn2" style="font-family: 'Heebo'; margin-right:20px; margin-top:0px;  color:black"><b>Contact</b></a>
           <button style="font-family: 'Heebo';" type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#signupModal">
             Register
@@ -799,10 +805,10 @@ function smtp_mailer($to, $subject, $msg)
     <div class="container">
       <h3 style="text-align: left; font-size:20px;" class="font-weight-bold">Popular Destinations</h3>
       <p style="text-align: left;">Get the best deals on international flights</p>
-      <div class="btn-group" role="group" aria-label="Basic example">
+      <!-- <div class="btn-group" role="group" aria-label="Basic example">
         <button style="font-family: 'Heebo';" class="btn btn-primary btn-sm filter-button" data-filter="all">International</button>
         <button style="font-family: 'Heebo';" class="btn btn-primary  btn-sm filter-button" data-filter="domestic">Domestic</button>
-      </div>
+      </div> -->
       <div class="row">
         <div class="col-md-6 col-lg-4  filter inter">
           <div class="card border-0 transform-on-hover">
@@ -1237,7 +1243,7 @@ function smtp_mailer($to, $subject, $msg)
 
 
 
-  <footer class="bg-dark text-center text-white" style="height:130px;">
+  <footer class="bg-dark text-center text-white" >
     <!-- Grid container -->
 
 
@@ -1252,9 +1258,16 @@ function smtp_mailer($to, $subject, $msg)
     <!--Grid row-->
     <!--</section>-->
 
-    <section class="mb-4 my-5">
+    <section class="mt-5">
       <br>
-
+      <div style="text-align:center; margin-left:17px;">
+        <div>
+          <a href="#"> 
+            <img src="img/volo.png" alt="" style="width: 120px;">
+          </a>
+        </div>
+      </div>
+      <br>
       <div style="text-align:center; margin-left:17px;">
         <a class="foottext mrgin" href="" style="font-family: 'Heebo'; color:white;  margin-right: 6px;" data-toggle="modal" data-target="#exampleModalLong">Privacy Policy</a>
 
@@ -1262,8 +1275,6 @@ function smtp_mailer($to, $subject, $msg)
 
         <a class="foottext mrgin1" href="https://www.facebook.com/volobooking" style="font-family: 'Heebo'; color:white ; text-align:right; margin-left:9px;">Follow Us</a>
       </div>
-
-
       <!--Grid row-->
       <br>
 
@@ -1274,7 +1285,8 @@ function smtp_mailer($to, $subject, $msg)
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
         © 2022
         <a class="text-white" href="https://volobooking.com/">
-          Volo Booking</a>
+          Volo Booking
+        </a>
       </div>
       <!--Grid row-->
     </section>
