@@ -240,9 +240,6 @@ function smtp_mailer($to, $subject, $msg)
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <style>
-  body{
-    background-color: #ccefff;
-  }
 
   .swal-button--confirm {
     background: #0275d8;
