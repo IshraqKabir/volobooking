@@ -1260,7 +1260,7 @@ function smtp_mailer($to, $subject, $msg)
       <div style="text-align:center; margin-left:17px;">
         <div>
           <a href="#"> 
-            <img src="img/volo.png" alt="" style="width: 120px;">
+            <img src="img/volo.png" alt="" style="width: 240px;">
           </a>
         </div>
       </div>
